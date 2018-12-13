@@ -62,3 +62,20 @@ img {
         order: -1;
     }
 }
+
+.main-content {
+    margin: 0 auto;
+    max-width: 70%;
+    padding-bottom: 2rem;
+}
+@media screen and ( min-width: 768px ) {
+    .main-content {
+        max-width: 50%;
+    }
+}
+/* Site Footer */
+.site-footer {
+    background-color: #DB008D;
+    color: white;
+    text-align: center;
+}
