@@ -10,6 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Site Header */
 .site-header {
     display: flex;
     justify-content: center;
@@ -20,6 +21,7 @@ img {
     max-width: 100%;    /* Hace las imágenes autoajustables RWD */
 }
 
+/* Main Navigation */
 .navigation {
     background-color: #05BAE6;
 }
@@ -43,5 +45,20 @@ img {
 @media screen and ( min-width: 768px ) {
     .navigation ul {
         flex-direction: row;
+    }
+}
+
+/* Main Container */
+.sidebar {
+    background-color: #E5E5E5;
+    padding: 2rem;
+}
+@media screen and ( min-width: 768px ) {
+    .container {
+        display: flex;
+    }
+    .sidebar {
+        flex: 0 0 30%;
+        order: -1;
     }
 }
