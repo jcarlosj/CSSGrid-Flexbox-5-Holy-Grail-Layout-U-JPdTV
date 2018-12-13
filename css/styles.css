@@ -49,13 +49,16 @@ img {
 }
 
 /* Main Container */
+.container {
+    display: flex;
+    flex-direction: column;
+}
 .sidebar {
     background-color: #E5E5E5;
     padding: 2rem;
 }
-.container {
-    display: flex;
-    flex-direction: column;
+.sidebar h2 {
+    margin: 0;
 }
 .sidebar-left {
     order: 3;
@@ -80,12 +83,12 @@ img {
 
 .main-content {
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 90%;
     padding-bottom: 2rem;
 }
 @media screen and ( min-width: 768px ) {
     .main-content {
-        max-width: 50%;
+        max-width: 40%;
     }
 }
 /* Site Footer */
