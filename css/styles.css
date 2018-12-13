@@ -58,8 +58,13 @@ img {
         display: flex;
     }
     .sidebar {
-        flex: 0 0 30%;
+        flex: 0 0 20%;
+    }
+    .sidebar-left {
         order: -1;
+    }
+    .sidebar-right {
+        order: 2;
     }
 }
 
